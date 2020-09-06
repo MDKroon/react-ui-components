@@ -12,3 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.max-width {
+  border-left: 4px solid #00f;
+  border-right: 4px solid #00f;
+}
+
+.gutter {
+  background-color: #009900;
+}
+
+.spacer {
+  background-color: #999;
+}

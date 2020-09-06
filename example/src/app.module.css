@@ -1,0 +1,23 @@
+.root {
+  text-align: center;
+}
+
+.root span {
+  font-weight: 700;
+}
+
+.whiteBg {
+  background-color: white;
+}
+
+.blue {
+  color: #00f;
+}
+
+.green {
+  color: #009900;
+}
+  
+.grey {
+  color: #999;
+}
