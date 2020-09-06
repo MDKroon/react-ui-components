@@ -1,6 +1,3 @@
-import React from 'react'
-import styles from './styles.module.css'
-
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { default as Gutter } from './components/layout/Gutter'
+export { default as MaxWidth } from './components/layout/MaxWidth'
+export { default as Spacer } from './components/layout/Spacer'
