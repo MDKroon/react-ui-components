@@ -12,6 +12,8 @@ npm install --save @mdkroon/react-ui-components
 
 ## Usage
 
+Import the components from `@mdkroon/react-ui-components`
+
 ```jsx
 import React from 'react'
 import { Gutter, MaxWidth, Spacer } from '@mdkroon/react-ui-components'
