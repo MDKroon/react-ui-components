@@ -2,6 +2,10 @@
   "name": "@mdkroon/react-ui-components",
   "version": "1.0.0",
   "description": "React ui components library",
+  "keywords": [
+    "react", "reactjs", "components" , "components-library", "react-components",
+    "react-components-library"
+  ],
   "author": "MDKroon",
   "license": "GNU GPLv3",
   "repository": "MDKroon/react-ui-components",
