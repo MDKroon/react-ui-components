@@ -33,7 +33,7 @@ const YourComponent = () => {
 export default YourComponent
 ```
 
-## Gutter props
+## Gutter
 
 | Prop | Type | Required | Default | Note |
 |---|---|---|---|---|
@@ -51,7 +51,7 @@ children|node|yes|-|content of the component
 className| string or object|no|`max-width`|CSS classname or CSS Module
 unit|string|no|`px`|to change the unit of the size (to  `%` or `vw`)
 
-## Spacer props
+## Spacer
 
 | Prop | Type | Required | Default | Note |
 |---|---|---|---|---|
