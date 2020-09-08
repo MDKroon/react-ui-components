@@ -1,7 +1,19 @@
-import { ExampleComponent } from '.'
+import { Gutter, MaxWidth, Spacer } from '.'
 
-describe('ExampleComponent', () => {
+describe('Gutter', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(Gutter).toBeTruthy()
+  })
+})
+
+describe('MaxWidth', () => {
+  it('is truthy', () => {
+    expect(MaxWidth).toBeTruthy()
+  })
+})
+
+describe('Spacer', () => {
+  it('is truthy', () => {
+    expect(Spacer).toBeTruthy()
   })
 })
