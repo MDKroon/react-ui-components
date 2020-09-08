@@ -33,30 +33,23 @@ const YourComponent = () => {
 export default YourComponent
 ```
 
-## Gutter
+## Available components
 
-| Prop | Type | Required | Default | Note |
-|---|---|---|---|---|
-size|number|yes|-|gutter size i.e. the padding-left and padding-right
-children|node|yes|-|content of the component
-className| string or object|no|`gutter`|CSS classname or CSS Module
-unit|string|no|`px`|to change the unit of the size (to  `%` or `vw`)
+### Layout
+|Name|Description|
+|---|---|
+|Gutter|add padding left and right|
+|MaxWidth|limit width|
+|Spacer|add space between components|
 
-## MaxWidth
+### Misc
+|Name|Description|
+|---|---|
+|SplitText|split plain text with new line characters into html text|
 
-| Prop | Type | Required | Default | Note |
-|---|---|---|---|---|
-size|number|yes|-|maximum with of the content
-children|node|yes|-|content of the component
-className| string or object|no|`max-width`|CSS classname or CSS Module
-unit|string|no|`px`|to change the unit of the size (to  `%` or `vw`)
+## Documentation
 
-## Spacer
-
-| Prop | Type | Required | Default | Note |
-|---|---|---|---|---|
-height|number|yes|-|height in px of de spacer
-className| string or object|no|`spacer`|CSS classname or CSS Module
+The documentation and props of all the components can be found in [documentation.md](documentation.md).
 
 ## Example
 
