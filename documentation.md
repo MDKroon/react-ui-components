@@ -2,12 +2,17 @@
 
 ## Content
 
+Layout:
 - [Gutter](#gutter)
 - [MaxWidth](#maxwidth)
 - [Spacer](#spacer)
+
+Text:
 - [SplitText](#splittext)
 
-## Gutter
+## Layout
+
+### Gutter
 
 | Prop | Type | Required | Default | Note |
 |---|---|---|---|---|
@@ -16,7 +21,7 @@ children|node|yes|-|content of the component
 className| string or object|no|`gutter`|CSS classname or CSS Module
 unit|string|no|`px`|to change the unit of the size (to  `%` or `vw`)
 
-## MaxWidth
+### MaxWidth
 
 | Prop | Type | Required | Default | Note |
 |---|---|---|---|---|
@@ -25,14 +30,16 @@ children|node|yes|-|content of the component
 className| string or object|no|`max-width`|CSS classname or CSS Module
 unit|string|no|`px`|to change the unit of the size (to  `%` or `vw`)
 
-## Spacer
+### Spacer
 
 | Prop | Type | Required | Default | Note |
 |---|---|---|---|---|
 height|number|yes|-|height in px of de spacer
 className| string or object|no|`spacer`|CSS classname or CSS Module
 
-## SpitText
+## Text
+
+### SpitText
 
 Convert plain text with new line characters into html text.
 Supported for:
@@ -44,4 +51,4 @@ Supported for:
 |---|---|---|---|---|
 children|node|yes|-|content of the component
 breaks|bool|no|true|add breaks `<br />` (useful for inline html tags)
-type|string|no|`span`|to change the html tag (i.e. `p` or `div`)
+tagName|string|no|`span`|to change the html tag (i.e. `p` or `div`)

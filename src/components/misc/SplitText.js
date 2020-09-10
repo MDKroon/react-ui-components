@@ -1,7 +1,7 @@
 import React, { createElement, Fragment } from 'react'
 import PropTypes from 'prop-types'
 
-const SplitText = ({ children, breaks, type }) => {
+const SplitText = ({ children, breaks, tagName }) => {
   if (!children) {
     return null
   }
@@ -16,7 +16,7 @@ const SplitText = ({ children, breaks, type }) => {
       {splittedText.map((item, index) => {
         return (
           <Fragment key={index}>
-            {item.length > 0 && createElement(type, null, item)}
+            {item.length > 0 && createElement(tagName, null, item)}
             {breaks && splittedText.length - 1 !== index && <br />}
           </Fragment>
         )
@@ -27,13 +27,13 @@ const SplitText = ({ children, breaks, type }) => {
 
 SplitText.defaultProps = {
   breaks: true,
-  type: 'span'
+  tagName: 'span'
 }
 
 SplitText.PropTypes = {
   children: PropTypes.node.isRequired,
   breaks: PropTypes.bool,
-  type: PropTypes.string
+  tagName: PropTypes.string
 }
 
 export default SplitText

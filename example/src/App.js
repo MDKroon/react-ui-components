@@ -33,10 +33,10 @@ const App = () => {
       </MaxWidth>
       <Spacer height={12}/>
       SplitText with span:<br />
-      <SplitText type='em'>{plainText}</SplitText>
+      <SplitText tagName='em'>{plainText}</SplitText>
       <Spacer height={12}/>
       SplitText with p:<br />
-      <SplitText breaks={false} type='p'>{plainText}</SplitText>
+      <SplitText breaks={false} tagName='p'>{plainText}</SplitText>
       <Spacer height={12}/>
     </div>
   )
