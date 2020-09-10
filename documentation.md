@@ -51,7 +51,7 @@ Supported for:
 | Prop | Type | Required | Default | Note |
 |---|---|---|---|---|
 children|node|yes|-|content of the component
-addBreaks|bool|no|true|add breaks `<br />` (useful for inline html tags)
+addBreaks|bool|no|`true`|add breaks `<br />` (useful for inline html tags)
 className| string or object|no|`split-text`|CSS classname or CSS Module
 tagName|string|no|`span`|to change the html tag (i.e. `p` or `div`)
 
