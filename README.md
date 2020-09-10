@@ -39,13 +39,14 @@ export default YourComponent
 |Name|Description|
 |---|---|
 |Gutter|add padding left and right|
-|MaxWidth|limit width|
+|MaxWidth|limits the width of its content|
 |Spacer|add space between components|
 
-### Misc
+### Text
 |Name|Description|
 |---|---|
 |SplitText|split plain text with new line characters into html text|
+|TruncText|truncate the text and add ellipsis if it doesn't fit on one line|
 
 ## Documentation
 

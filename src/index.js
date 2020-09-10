@@ -5,3 +5,4 @@ export { default as Spacer } from './components/layout/Spacer'
 
 // text
 export { default as SplitText } from './components/text/SplitText'
+export { default as TruncText } from './components/text/TruncText'

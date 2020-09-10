@@ -1,5 +1,5 @@
 import React from 'react'
-import { Gutter, MaxWidth, Spacer, SplitText } from '@mdkroon/react-ui-components'
+import { Gutter, MaxWidth, Spacer, SplitText, TruncText } from '@mdkroon/react-ui-components'
 import style from './app.module.css'
 
 const loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
@@ -38,6 +38,7 @@ const App = () => {
       SplitText with p:<br />
       <SplitText breaks={false} tagName='p'>{plainText}</SplitText>
       <Spacer height={12}/>
+      <TruncText maxWidth='150px'>This is text is too long.</TruncText>
     </div>
   )
 }
